@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:world_time/pages/choose_location.dart';
-// import 'package:world_time/services/world_time.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -108,7 +107,7 @@ class _HomeState extends State<Home> {
                     ElevatedButton(
                       onPressed: () {
                         // updateTime();
-                        ChooseLocation();
+                        // ChooseLocation();
                       },
                       style: ElevatedButton.styleFrom(
                         primary: bgColor,
